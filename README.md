@@ -16,5 +16,14 @@ the following packages are used:
     pip2 install flask packaging oauth2client redis passlib flask-httpauth
     pip2 install sqlalchemy flask-sqlalchemy psycopg2-binary bleach requests
 
-apache2 was used to create the server
+first i created the grader user and changed it's access
+then i changed the port for ssh
+installed apache and cloned my project from git
+created a catalog database
+followed a tutorial to publish it on apache
+```https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps```
+
+- apache2 was used to create the server
+- wsgi apache_mod
+
 
